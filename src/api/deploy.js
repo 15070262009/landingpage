@@ -122,6 +122,7 @@ async function deploy(ctx, next) {
   };
 
   const client = new HttpClient2();
+  console.log('---concatFiles-', concatFiles);
   const res = await client.request(`${url}/deployments`, settings);
   console.log('------res-', res);
   ctx.status = 200;
