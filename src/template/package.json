@@ -1,5 +1,5 @@
 {
-  "name": "{{ name }}",
+  "name": "123",
   "private": true,
   "scripts": {
     "start": "now",
@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "lint-staged": "^7.2.2",
-    "now": "^14.0.3"
+    "now": "^19.1.1"
   },
   "lint-staged": {
     "*.{js,jsx}": [
